@@ -6,6 +6,7 @@ This repo is the node.js script that will calculate the transaction by the time 
 #### Run the code: 
 * node index.js -t 1571967208 -n ETH -p transactions_test.csv
 * The result when use transactions_test.csv may be contain NEGATIVE value because the transaction_test.csv DOES NOT CONTAIN all the past and only for testing.
+* If not provide -p parameter, the code will throw error and give example to inform user to input path.
 * The screen will show the number of percent the data is loading and processing for user to know how much percent the system is processing.
 * ![image](https://user-images.githubusercontent.com/43028613/141354206-02762621-317b-40fd-b196-2df9c7441993.png) 
 # Explain the code
