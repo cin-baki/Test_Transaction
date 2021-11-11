@@ -6,7 +6,8 @@ This repo is the node.js script that will calculate the transaction by the time 
 #### Run the code: 
 * node index.js -t 1571967208 -n ETH -p transactions_test.csv
 * The result when use transactions_test.csv may be contain NEGATIVE value because the transaction_test.csv DOES NOT CONTAIN all the past and only for testing.
-* The screen will show the number of percent the data is loading and processing for user to know how much percent the system is processing.![image](https://user-images.githubusercontent.com/43028613/141354206-02762621-317b-40fd-b196-2df9c7441993.png) 
+* The screen will show the number of percent the data is loading and processing for user to know how much percent the system is processing.
+* ![image](https://user-images.githubusercontent.com/43028613/141354206-02762621-317b-40fd-b196-2df9c7441993.png) 
 # Explain the code
 * The system use fs module to interact with csv file and sv-parse module to parse data in csv file. The readstream is used to optimize the system performance when the system need to process another task and dont need to wait for process a large csv file. The data is piped to a function of csv-parser.
 * The transaction data is seprated into each element (timestamp, transaction_type, token and amount) as a list file. The purpose of seperate (not combine in one array) is for clear and easy to write code.
