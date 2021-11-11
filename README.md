@@ -4,5 +4,5 @@ This repo is the node.js script that will calculate the transaction by the time 
 # How to run the code
 #### First install all dependences package by package.json file.
 #### Run the code: 
-#####node index.js -t 1571967208 -n ETH -p transactions_test.csv
+##### node index.js -t 1571967208 -n ETH -p transactions_test.csv
 
